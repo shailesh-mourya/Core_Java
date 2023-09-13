@@ -1,0 +1,22 @@
+package pkg1basic_practices;
+//1.types of variables (static ,global,local)
+
+class VariableTypes {
+	static int static_v = 4;
+	int global_v = 5;
+
+	void method1() {
+		int local_v = 6;
+		System.out.println(local_v);
+	}
+}
+
+public class MainVariables {
+	public static void main(String[] args) {
+		VariableTypes vt = new VariableTypes();
+		
+		vt.method1();
+	
+	
+	}
+}

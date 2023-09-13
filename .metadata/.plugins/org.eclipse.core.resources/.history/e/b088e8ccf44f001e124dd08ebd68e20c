@@ -1,0 +1,60 @@
+package pkg1chapter1;
+
+class Doctor extends MainSeven {
+	void DisplayInfo(String profession, int id, String name, String gender) {
+		this.profession = profession="doctor";
+		this.id = id;
+		this.name = name;
+		this.gender = gender;
+		System.out.println("Profession="+profession+" Id="+id+" Name="+name+" Gender="+gender);
+	}
+	
+	void DisplayInfo(String profession, int id, String name, int salary) {
+		this.profession = profession="doctor";
+		this.id = id;
+		this.name = name;
+		this.salary=salary;
+		System.out.println("Profession="+profession+" Id="+id+" Name="+name+" Salary="+salary);
+	}
+	
+
+}
+
+class Nurse extends Doctor{
+	@Override
+	void DisplayInfo(String profession, int id, String name, String gender) {
+		this.profession = profession="nurse";
+		this.id = id;
+		this.name = name;
+		this.gender = gender;
+		System.out.println("Profession="+profession+" Id="+id+" Name="+name+" Gender="+gender);
+		
+	}
+	void DisplayInfo(String profession, int id, String name, int salary) {
+		this.profession = profession="nurse";
+		this.id = id;
+		this.name = name;
+		this.salary=salary;
+		System.out.println("Profession="+profession+" Id="+id+" Name="+name+" Salary="+salary);
+	}
+	
+
+}
+
+
+public class MainSeven {
+	public String profession;
+	public int id;
+	public String name;
+	public String gender;
+	protected int salary;
+
+	public static void main(String[] args) {
+		Doctor d = new Doctor();
+		d.DisplayInfo(null, 11, "dr.shailesh", "male");
+		d.DisplayInfo(null, 11, "shailesh", 22222);
+		Nurse n = new Nurse();
+		n.DisplayInfo(null, 12, "neha", 20000);
+		n.DisplayInfo(null, 12, "neha", "female");
+	}
+}
