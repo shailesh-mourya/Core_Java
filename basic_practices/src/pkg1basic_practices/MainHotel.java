@@ -1,0 +1,79 @@
+package pkg1basic_practices;
+
+class Worker {
+	String name;
+	int age;
+	int id;
+	int salary;
+
+	public Worker(String name, int age, int id, int salary) {
+		this.name = name;
+		this.age = age;
+		this.id = id;
+		this.salary = salary;
+		System.out.println("name: " + name + " age: " + age + " id: " + id + " salary: " + salary);
+	}
+
+}
+
+class Manager {
+	String name;
+	int age;
+	int id;
+	int salary;
+
+	public Manager(String name, int age, int id, int salary) {
+		this.name = name;
+		this.age = age;
+		this.id = id;
+		this.salary = salary;
+		System.out.println("name: " + name + " age: " + age + " id: " + id + " salary: " + salary);
+
+	}
+
+}
+
+class Waiter {
+	String name;
+	int age;
+	int id;
+	int salary;
+
+	public Waiter(String name, int age, int id, int salary) {
+		this.name = name;
+		this.age = age;
+		this.id = id;
+		this.salary = salary;
+		System.out.println("name: " + name + " age: " + age + " id: " + id + " salary: " + salary);
+
+	}
+
+}
+
+class Chef {
+	String name;
+	int age;
+	int id;
+	int salary;
+
+	public Chef(String name, int age, int id, int salary) {
+		this.name = name;
+		this.age = age;
+		this.id = id;
+		this.salary = salary;
+		System.out.println("name: " + name + " age: " + age + " id: " + id + " salary: " + salary);
+
+	}
+
+}
+
+public class MainHotel {
+	public static void main(String[] args) {
+
+		Worker w = new Worker("ramu", 40, 12, 20000);
+		Manager m = new Manager("shashi", 25, 123, 200000);
+		Waiter wi = new Waiter("jim", 25, 232, 10000);
+		Chef c = new Chef("josf", 46, 242, 234000);
+
+	}
+}

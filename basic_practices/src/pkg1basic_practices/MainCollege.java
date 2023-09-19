@@ -1,0 +1,75 @@
+package pkg1basic_practices;
+
+class Student {
+	String name;
+	int roll_no;
+	String gender;
+	int std;
+
+	public Student(String name, int roll_no, String gender, int std) {
+
+		this.name = name;
+		this.roll_no = roll_no;
+		this.gender = gender;
+		this.std = std;
+		System.out.println("Studend name: " + name + " Roll_no: " + roll_no + " Gender: " + gender + " Std: " + std);
+	}
+
+}
+
+class Teacher {
+	String name;
+	String subject;
+	int id;
+
+	public Teacher(String name, String subject, int id) {
+		this.name = name;
+		this.subject = subject;
+		this.id = id;
+		System.out.println("Teacher name: " + name + " Subject: " + subject + " id: " + id);
+
+	}
+
+}
+
+class Administrator {
+	String name;
+	int id;
+	int salary;
+
+	public Administrator(String name, int id, int salary) {
+		this.name = name;
+		this.id = id;
+		this.salary = salary;
+		System.out.println("Administrator name: " + name + " id: " + id + " salary: " + salary);
+	}
+
+}
+
+class Principal {
+	String name;
+	int id;
+	int salary;
+	int age;
+
+	public Principal(String name, int id, int salary, int age) {
+		this.name = name;
+		this.id = id;
+		this.salary = salary;
+		this.age = age;
+		System.out.println("Principal name: " + name + " id: " + id + " salary: " + salary + " age: " + age);
+	}
+
+}
+
+public class MainCollege {
+	public static void main(String[] args) {
+
+		Student s = new Student("ajay", 12, "male", 10);
+		Teacher t = new Teacher("priya", "math", 142);
+		Administrator a = new Administrator("Rahul", 145, 2000000);
+		Principal p = new Principal("shailesh", 1234, 10000000, 20);
+
+	}
+
+}

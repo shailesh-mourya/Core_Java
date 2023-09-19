@@ -1,0 +1,28 @@
+package pkg1basic_practices;
+
+class Student{
+	String name;
+	int roll_no;
+	int gender;
+	int std;
+	public Student(String name, int roll_no, int gender, int std) {
+		
+		this.name = name;
+		this.roll_no = roll_no;
+		this.gender = gender;
+		this.std = std;
+		System.out.println("Studend name: "+name+" Roll_no: "+roll_no+" Gender: "+gender+" Std: "+std);
+	}
+	
+}
+
+
+public class MainCollege {
+	public static void main(String[] args) {
+		
+		
+		
+	}
+	
+	
+}
