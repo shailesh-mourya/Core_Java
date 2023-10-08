@@ -1,3 +1,4 @@
-GitRepositoriesView.GitDirectories=
-GitRepositoriesView.GitDirectories.relative=
+GitRepositoriesView.GitDirectories=D\:\\core_java\\.git;C\:\\Users\\shailesh\\git\\android\\.git;
+GitRepositoriesView.GitDirectories.relative=.git;C\:\\Users\\shailesh\\git\\android\\.git;
+RepositorySearchDialogSearchPath=C\:\\Users\\shailesh\\git
 eclipse.preferences.version=1
